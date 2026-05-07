@@ -51,92 +51,92 @@ public class Controller {
 
 
     private static final Map<Integer, String> TASKS_120 = Map.ofEntries(
-            new SimpleEntry<>(1, "1.    1) писать 2) рубить З) ковать 4) шить 5) читать "),
-            new SimpleEntry<>(2, "2.    1) скоро 2) вскоре 3) в скором времени 4) завтра 5) сейчас  "),
-            new SimpleEntry<>(3, "3.    1) клиент 2) компаньон 3) подзащитный 4) покупатель 5) пациент"),
-            new SimpleEntry<>(4, "4.    1) существенный 2) примечательный 3) важный 4) характерный 5) типичный  "),
-            new SimpleEntry<>(5, "5.    1) различный 2) отличающийся 3) иной 4) неодинаковый 5) измененный   "),
-            new SimpleEntry<>(6, "6.    1) туманный 2) морозный 3) ветреный 4) хмурый 5) дождливый  "),
-            new SimpleEntry<>(7, "7.    1) разговор 2) доклад 3) дискуссия 4) конференция 5) совещание  "),
-            new SimpleEntry<>(8, "8.    1) перелистывать 2) повернуть 3) перевернуть 4) переворачивать 5) обходить  "),
-            new SimpleEntry<>(9, "9.    1) нервный 2) трепещущий 3) беспокойный 4) неуверенный 5) возбужденный  "),
-            new SimpleEntry<>(10, "10.  1) лепить 2) ломать 3З) гнуть 4) тянуть 5) растягивать  "),
-            new SimpleEntry<>(11, "11.  1) пересматривать 2) выглядеть 3) предусмотреть 4) обозревать 5) посмотреть  "),
-            new SimpleEntry<>(12, "12.  1) большой 2) массивный 3) толстый 4) дородный 5) полный  "),
-            new SimpleEntry<>(13, "13.  1) близкий 2) одинаковый 3) идентичный 4) похожий 5) совпадающий  "),
-            new SimpleEntry<>(14, "14.  1)	стабильный 2) постоянный 3) непрерывный 4) устойчивый 5) константный  "),
-            new SimpleEntry<>(15, "15.  1) подать 2) присвоить 3) давать 4) преподносить 5) вручать  "),
-            new SimpleEntry<>(16, "16.  1) лифт 2) лестница 3) парашют 4) стремянка 5) вертолет  "),
-            new SimpleEntry<>(17, "17.  1) общительный 2) дипломатичный 3) доброжелательный 4) разговорчивый 5) вежливый  "),
-            new SimpleEntry<>(18, "18.  1) миграция 2) движение 3) развитие 4) переселение 5) изменение  "),
-            new SimpleEntry<>(19, "19.  1) новатор 2) изобретатель 3) передовик 4) первопроходец 5) рационализатор  "),
-            new SimpleEntry<>(20, "20.  1) распространенный 2) типичный 3) простой 4) привычный 5) обыденный  ")
+            new SimpleEntry<>(1, "1.    1) schreiben 2) hacken 3) schmieden 4) nähen 5) lesen "),
+            new SimpleEntry<>(2, "2.    1) bald 2) demnächst 3) in Kürze 4) morgen 5) jetzt  "),
+            new SimpleEntry<>(3, "3.    1) Kunde 2) Kompagnon 3) Mandant 4) Käufer 5) Patient"),
+            new SimpleEntry<>(4, "4.    1) wesentlich 2) bemerkenswert 3) wichtig 4) charakteristisch 5) typisch  "),
+            new SimpleEntry<>(5, "5.    1) verschieden 2) unterschiedlich 3) anders 4) ungleich 5) verändert   "),
+            new SimpleEntry<>(6, "6.    1) neblig 2) frostig 3) windig 4) trüb 5) regnerisch  "),
+            new SimpleEntry<>(7, "7.    1) Gespräch 2) Vortrag 3) Diskussion 4) Konferenz 5) Beratung  "),
+            new SimpleEntry<>(8, "8.    1) blättern 2) wenden 3) umdrehen 4) umwälzen 5) umgehen  "),
+            new SimpleEntry<>(9, "9.    1) nervös 2) zitternd 3) unruhig 4) unsicher 5) aufgeregt  "),
+            new SimpleEntry<>(10, "10.  1) formen 2) brechen 3) biegen 4) ziehen 5) dehnen  "),
+            new SimpleEntry<>(11, "11.  1) überprüfen 2) aussehen 3) vorsehen 4) überblicken 5) ansehen  "),
+            new SimpleEntry<>(12, "12.  1) groß 2) massiv 3) dick 4) stattlich 5) voll  "),
+            new SimpleEntry<>(13, "13.  1) ähnlich 2) gleich 3) identisch 4) gleichend 5) übereinstimmend  "),
+            new SimpleEntry<>(14, "14.  1) stabil 2) beständig 3) kontinuierlich 4) dauerhaft 5) konstant  "),
+            new SimpleEntry<>(15, "15.  1) reichen 2) aneignen 3) geben 4) darbieten 5) überreichen  "),
+            new SimpleEntry<>(16, "16.  1) Aufzug 2) Treppe 3) Fallschirm 4) Leiter 5) Hubschrauber  "),
+            new SimpleEntry<>(17, "17.  1) gesellig 2) diplomatisch 3) wohlwollend 4) gesprächig 5) höflich  "),
+            new SimpleEntry<>(18, "18.  1) Migration 2) Bewegung 3) Entwicklung 4) Umsiedlung 5) Veränderung  "),
+            new SimpleEntry<>(19, "19.  1) Neuerer 2) Erfinder 3) Vorreiter 4) Pionier 5) Rationalisator  "),
+            new SimpleEntry<>(20, "20.  1) verbreitet 2) typisch 3) einfach 4) gewohnt 5) alltäglich  ")
     );
 
     private static final Map<Integer, String> TASKS_2140 = Map.ofEntries(
-            new SimpleEntry<>(1, "21) Дорого — редко = дешево — ?\n" +
-                    "1) недорого 2) прочно 3) доступно 4) обычно 5) часто"),
-            new SimpleEntry<>(2, "22) Прямоугольник — эллипс = квадрат — ?\n" +
-                    "1) треугольник 2) круг 3) шестиугольник 4) угол 5) конус"),
-            new SimpleEntry<>(3, "23) Молекула — атом = фунт — ?\n" +
-                    "1) вес 2) центнер З) грамм 4) груз 5) масса"),
-            new SimpleEntry<>(4, "24 Наводнение — плотина = дождь — ?\n" +
-                    "1) мокро 2) вода 3) водосток 4) капля 5) зонтик"),
-            new SimpleEntry<>(5, "25) Пилить — клеить = просеивать — ?\n" +
-                    "1) смешать 2) паять 3) лить 4) сыпать 5) фильтровать "),
-            new SimpleEntry<>(6, "26) Хлеб — тесто = кокс — ?\n" +
-                    "1) отопление 2) выплавка стали 3) уголь 4) коксование 5) подвал"),
-            new SimpleEntry<>(7, "27) Принять во внимание — выпустить из вида = узнать — ?\n" +
-                    "1) заметить 2) игнорировать 3) наблюдать 4) недооценивать 5) презирать"),
-            new SimpleEntry<>(8, "28) Спортсмен — успех = предприниматель — ?\n" +
-                    "1) роскошь 2) деньги 3) прибыль 4) оборот 5) движение"),
-            new SimpleEntry<>(9, "29) Либеральный — радикальный = умеренный — ?\n" +
-                    "1) терпимый 2) ангажированный 3) крайний 4) благосклонный 5) примирительный"),
-            new SimpleEntry<>(10, "30) Число — дробь = постройка — ?\n" +
-                    "1) комната 2) подвал 3) окно 4) сарай 5) этаж"),
-            new SimpleEntry<>(11, "31) Платина — алюминий = алмаз — ?\n" +
-                    "1) драгоценный камень 2) украшение 3) стекло 4) твердосплав 5) шлифовка"),
-            new SimpleEntry<>(12, "32) Страница — книга = предложение — ?\n" +
-                    "1) буква 2) слово 3) содержание 4) глава 5) название"),
-            new SimpleEntry<>(13, "33) Размер — длина = нечестный — ?\n" +
-                    "1) тюрьма 2) грешный 3) укравший 4) несчастный 5) ошибка"),
-            new SimpleEntry<>(14, "34) Открытие — любопытство = действие — ?\n" +
-                    "1) надежда 2) процесс 3) опыт 4) намерение 5) результат"),
-            new SimpleEntry<>(15, "35) Пища — пряности = доклад — ?\n" +
-                    "1) оскорбление 2) речь З) юмор 4) обращение 5) расчленение"),
-            new SimpleEntry<>(16, "36) Язык — горечь = глаз — ?\n" +
-                    "1) зрение 2) свет 3) яркость 4)красный 5) зоркий"),
-            new SimpleEntry<>(17, "37) Гнев — аффект = печаль — ?\n" +
-                    "1) радость 2) раздражение 3) настроение 4)ярость 5) потеря"),
-            new SimpleEntry<>(18, "38) Пальто — пиджак = шерсть — ?\n" +
-                    "1) материал 2) овца З) шелк 4) джемпер 5) текстильные изделия "),
-            new SimpleEntry<>(19, "39) Наука — математика = издание — ?\n" +
-                    "1) типография 2) рассказ 3) журнал 4) газета «Известия» 5) редакция"),
-            new SimpleEntry<>(20, "40) Река — дельта = дерево — ?\n" +
-                    "1) влага 2) ветви 3) корни 4) крона 5) ростки"));
+            new SimpleEntry<>(1, "21) Teuer — selten = billig — ?\n" +
+                    "1) günstig 2) haltbar 3) erschwinglich 4) üblich 5) häufig"),
+            new SimpleEntry<>(2, "22) Rechteck — Ellipse = Quadrat — ?\n" +
+                    "1) Dreieck 2) Kreis 3) Sechseck 4) Winkel 5) Kegel"),
+            new SimpleEntry<>(3, "23) Molekül — Atom = Pfund — ?\n" +
+                    "1) Gewicht 2) Zentner 3) Gramm 4) Last 5) Masse"),
+            new SimpleEntry<>(4, "24) Überschwemmung — Damm = Regen — ?\n" +
+                    "1) nass 2) Wasser 3) Abfluss 4) Tropfen 5) Regenschirm"),
+            new SimpleEntry<>(5, "25) Sägen — kleben = sieben — ?\n" +
+                    "1) mischen 2) löten 3) gießen 4) schütten 5) filtern"),
+            new SimpleEntry<>(6, "26) Brot — Teig = Koks — ?\n" +
+                    "1) Heizung 2) Stahlverhüttung 3) Kohle 4) Verkokung 5) Keller"),
+            new SimpleEntry<>(7, "27) Berücksichtigen — außer Acht lassen = erkennen — ?\n" +
+                    "1) bemerken 2) ignorieren 3) beobachten 4) unterschätzen 5) verachten"),
+            new SimpleEntry<>(8, "28) Sportler — Erfolg = Unternehmer — ?\n" +
+                    "1) Luxus 2) Geld 3) Gewinn 4) Umsatz 5) Bewegung"),
+            new SimpleEntry<>(9, "29) Liberal — radikal = gemäßigt — ?\n" +
+                    "1) tolerant 2) engagiert 3) extrem 4) wohlwollend 5) versöhnlich"),
+            new SimpleEntry<>(10, "30) Zahl — Bruch = Gebäude — ?\n" +
+                    "1) Zimmer 2) Keller 3) Fenster 4) Scheune 5) Stockwerk"),
+            new SimpleEntry<>(11, "31) Platin — Aluminium = Diamant — ?\n" +
+                    "1) Edelstein 2) Schmuck 3) Glas 4) Hartmetall 5) Schliff"),
+            new SimpleEntry<>(12, "32) Seite — Buch = Satz — ?\n" +
+                    "1) Buchstabe 2) Wort 3) Inhalt 4) Kapitel 5) Titel"),
+            new SimpleEntry<>(13, "33) Größe — Länge = unehrlich — ?\n" +
+                    "1) Gefängnis 2) sündhaft 3) diebisch 4) unglücklich 5) Irrtum"),
+            new SimpleEntry<>(14, "34) Entdeckung — Neugier = Handlung — ?\n" +
+                    "1) Hoffnung 2) Prozess 3) Erfahrung 4) Absicht 5) Ergebnis"),
+            new SimpleEntry<>(15, "35) Speise — Gewürze = Vortrag — ?\n" +
+                    "1) Beleidigung 2) Rede 3) Humor 4) Ansprache 5) Gliederung"),
+            new SimpleEntry<>(16, "36) Zunge — Bitterkeit = Auge — ?\n" +
+                    "1) Sehkraft 2) Licht 3) Helligkeit 4) Rot 5) scharf"),
+            new SimpleEntry<>(17, "37) Zorn — Affekt = Trauer — ?\n" +
+                    "1) Freude 2) Gereiztheit 3) Stimmung 4) Wut 5) Verlust"),
+            new SimpleEntry<>(18, "38) Mantel — Jackett = Wolle — ?\n" +
+                    "1) Material 2) Schaf 3) Seide 4) Pullover 5) Textilien"),
+            new SimpleEntry<>(19, "39) Wissenschaft — Mathematik = Verlag — ?\n" +
+                    "1) Druckerei 2) Erzählung 3) Zeitschrift 4) Tageszeitung 5) Redaktion"),
+            new SimpleEntry<>(20, "40) Fluss — Delta = Baum — ?\n" +
+                    "1) Feuchtigkeit 2) Äste 3) Wurzeln 4) Krone 5) Triebe"));
 
 
     private static final Map<Integer, String> TASKS_4160 = Map.ofEntries(
-            new SimpleEntry<>(1, "41.    1) бедность 2) опасность 3) голод 4) болезнь 5) страх 6) жажда"),
-            new SimpleEntry<>(2, "42.    1) характер 2) симптом 3) система 4) желание 5) признак 6) диагноз  "),
-            new SimpleEntry<>(3, "43.    1) море 2) водоросль 3) медуза 4) дельфин 5) мусор б) кит "),
-            new SimpleEntry<>(4, "44.    1) прикосновение 2) духи З) нос 4) вкус 5) раздражение 6) аромат "),
-            new SimpleEntry<>(5, "45.    1) точка 2) вершина З) луг 4) долина 5) башня 6) поле "),
-            new SimpleEntry<>(6, "46.    1) крест 2) мечеть З) башня 4) алтарь 5) костел 6) колокол "),
-            new SimpleEntry<>(7, "47.    1) канистра 2) пепельница 3) рюкзак 4) урна 5) ваза 6) кастрюля  "),
-            new SimpleEntry<>(8, "48.    1) бегемот 2) бабочка 3) черепаха 4) дождевой червь 5) страус б) еж  "),
-            new SimpleEntry<>(9, "49.    1) стирать 2) красить 3) складывать 4) полировать 5) чистить 6) сушить  "),
-            new SimpleEntry<>(10, "50.   1) история 2) филология 3) биология 4) экономика 5) педагогика 6) физика  "),
-            new SimpleEntry<>(11, "51.   1) самолет 2)пилот 3) камера хранения 4) багаж 5) стюардесса 6) машинист  "),
-            new SimpleEntry<>(12, "52.   1) кабель 2) телефон З) кран 4) турбина 5) предохранитель 6) переключатель  "),
-            new SimpleEntry<>(13, "53.   1) линейка 2)вакуум З)угол 4)температура 5)жара 6) градусник  "),
-            new SimpleEntry<>(14, "54.   1)	предостережение 2)мир 3)эпоха 4)газета 5) школа 6) срок  "),
-            new SimpleEntry<>(15, "55.   1) улов 2) удочка З) щука 4) невод 5) рыбацкая лодка 6) ракушка  "),
-            new SimpleEntry<>(16, "56.   1) куртка 2) застежка-молния 3) дверная задвижка 4) связка ключей 5) оконное стекло 6) платяной шкаф  "),
-            new SimpleEntry<>(17, "57.   1) мягкий 2) твердый 3) эластичный 4) круглый 5) теплый 6) жидкий  "),
-            new SimpleEntry<>(18, "58.   1) масло 2) яйца 3) хлеб 4) рис 5) творог 6) сельдь  "),
-            new SimpleEntry<>(19, "59.   1) сентиментальный 2) странный 3) поэтический 4) чувствительный 5) нежный 6) взбалмошный  "),
-            new SimpleEntry<>(20, "60.   1) научиться 2) приспособиться 3) остаться 4) присмотреться 5) адаптироваться 6) отдохнуть  ")
+            new SimpleEntry<>(1, "41.    1) Armut 2) Gefahr 3) Hunger 4) Krankheit 5) Angst 6) Durst"),
+            new SimpleEntry<>(2, "42.    1) Charakter 2) Symptom 3) System 4) Wunsch 5) Merkmal 6) Diagnose  "),
+            new SimpleEntry<>(3, "43.    1) Meer 2) Alge 3) Qualle 4) Delphin 5) Müll 6) Wal "),
+            new SimpleEntry<>(4, "44.    1) Berührung 2) Parfüm 3) Nase 4) Geschmack 5) Reizung 6) Duft "),
+            new SimpleEntry<>(5, "45.    1) Punkt 2) Gipfel 3) Wiese 4) Tal 5) Turm 6) Feld "),
+            new SimpleEntry<>(6, "46.    1) Kreuz 2) Moschee 3) Turm 4) Altar 5) Kirche 6) Glocke "),
+            new SimpleEntry<>(7, "47.    1) Kanister 2) Aschenbecher 3) Rucksack 4) Urne 5) Vase 6) Kochtopf  "),
+            new SimpleEntry<>(8, "48.    1) Nilpferd 2) Schmetterling 3) Schildkröte 4) Regenwurm 5) Strauß 6) Igel  "),
+            new SimpleEntry<>(9, "49.    1) waschen 2) färben 3) falten 4) polieren 5) reinigen 6) trocknen  "),
+            new SimpleEntry<>(10, "50.   1) Geschichte 2) Philologie 3) Biologie 4) Wirtschaft 5) Pädagogik 6) Physik  "),
+            new SimpleEntry<>(11, "51.   1) Flugzeug 2) Pilot 3) Gepäckaufbewahrung 4) Gepäck 5) Stewardess 6) Lokführer  "),
+            new SimpleEntry<>(12, "52.   1) Kabel 2) Telefon 3) Kran 4) Turbine 5) Sicherung 6) Schalter  "),
+            new SimpleEntry<>(13, "53.   1) Lineal 2) Vakuum 3) Winkel 4) Temperatur 5) Hitze 6) Thermometer  "),
+            new SimpleEntry<>(14, "54.   1) Warnung 2) Welt 3) Epoche 4) Zeitung 5) Schule 6) Frist  "),
+            new SimpleEntry<>(15, "55.   1) Fang 2) Angel 3) Hecht 4) Schleppnetz 5) Fischerboot 6) Muschel  "),
+            new SimpleEntry<>(16, "56.   1) Jacke 2) Reißverschluss 3) Türriegel 4) Schlüsselbund 5) Fensterglas 6) Kleiderschrank  "),
+            new SimpleEntry<>(17, "57.   1) weich 2) hart 3) elastisch 4) rund 5) warm 6) flüssig  "),
+            new SimpleEntry<>(18, "58.   1) Butter 2) Eier 3) Brot 4) Reis 5) Quark 6) Hering  "),
+            new SimpleEntry<>(19, "59.   1) sentimental 2) seltsam 3) poetisch 4) empfindlich 5) zart 6) exzentrisch  "),
+            new SimpleEntry<>(20, "60.   1) lernen 2) sich anpassen 3) bleiben 4) beobachten 5) sich adaptieren 6) ausruhen  ")
     );
 
     private static final Map<Integer, String> CORRECT_ANSWERS = Map.<Integer, String>ofEntries(
@@ -258,7 +258,7 @@ public class Controller {
     @FXML
     public void startTest() throws FileNotFoundException {
         this.scene = nextStep.getScene();
-        if (userName.getText().equalsIgnoreCase("Введите свое имя") || userName.getText().length() == 0) {
+        if (userName.getText().equalsIgnoreCase("Ihren Namen eingeben") || userName.getText().length() == 0) {
 
         } else {
             this.login = userName.getText();
@@ -269,22 +269,22 @@ public class Controller {
             userName.setVisible(false);
             startTestButton.setDisable(true);
             instructionText.setText("""
-                    Тест 1.
-                    Суть заданий, которые Вам будут предложены, состоит в том, что в ряду из пяти слов надо будет выделить «лишнее», не подходящее по смыслу к остальным четырем словам.
-                    Пример 1
-                    1)      стол   2)стул    3)синица    4)шкаф    5) кровать
-                    Ответ: 3) синица
-                    Четыре слова (стол, стул, шкаф, кровать) по смыслу подходят друг к другу, как предметы мебели, а слово «синица» является «лишним» в ряду этих слов.
-                                        
-                                        
-                    Пример 2
-                    1)      сидеть    2) лежать    3) стоять    4)идти    5) стоять на коленях
-                    Ответ: 4) идти
-                    Четыре суждения (сидеть, лежать, стоять, стоять на коленях) характеризуют неподвижность, а слово «идти» не подходит к ним, оказывается «лишним», так как характеризует движение.
-                    Заданий такого типа будет двадцать. Отвечать на них нужно в окошке, следующем непосредственно после каждого задания. В каждом задании слова пронумерованы: 1, 2, 3, 4, 5. Номер «лишнего» слова надо будет записать в пустом окошке под соответствующим заданием.
-                    Работать следует быстро. Время выполнения заданий ограничено. Если затрудняетесь в выборе ответа, задание можно пропустить (если останется время, Вы еще сможете к нему вернуться). Если ошиблись, можно вернуться и исправить ответ.
-                    Нажмите ДАЛЕЕ и начинайте работать, когда будете готовы. По истечении отведенного времени, форма выполнения заданий будет закрыта вне зависимости от того, успели Вы выполнить все задания или нет. Если Вы справитесь с заданиями быстрее, то в оставшееся время можно проверить свою работу или просто отдохнуть, но нельзя приступать к следующим заданиям. Переходить к следующему заданию осуществляется автоматически по истечению времени.
-                               
+                    Untertest 1.
+                    Bei den folgenden Aufgaben finden Sie jeweils fünf Wörter. Vier dieser Wörter lassen sich zu einer Gruppe zusammenfassen. Finden Sie das Wort, das nicht zur Gruppe gehört.
+                    Beispiel 1
+                    1) Tisch   2) Stuhl   3) Meise   4) Schrank   5) Bett
+                    Antwort: 3) Meise
+                    Die vier Wörter Tisch, Stuhl, Schrank und Bett gehören zusammen als Möbelstücke, während das Wort „Meise" nicht dazu passt und das „fremde" Wort in dieser Reihe ist.
+
+
+                    Beispiel 2
+                    1) sitzen   2) liegen   3) stehen   4) gehen   5) knien
+                    Antwort: 4) gehen
+                    Die vier Begriffe sitzen, liegen, stehen und knien beschreiben Ruhelagen, während „gehen" eine Bewegung ausdrückt und daher nicht dazu gehört.
+                    Es gibt zwanzig solcher Aufgaben. Tragen Sie Ihre Antwort in das Kästchen nach der jeweiligen Aufgabe ein. Jedes Wort ist mit einer Zahl nummeriert: 1, 2, 3, 4, 5. Schreiben Sie die Nummer des nicht passenden Wortes in das leere Kästchen.
+                    Arbeiten Sie schnell. Die Zeit ist begrenzt. Wenn Sie bei einer Aufgabe nicht sicher sind, überspringen Sie diese (Sie können sie später noch bearbeiten, wenn Zeit übrig ist). Wenn Sie einen Fehler gemacht haben, können Sie die Antwort korrigieren.
+                    Klicken Sie auf WEITER und beginnen Sie zu arbeiten, wenn Sie bereit sind. Wenn die Zeit abgelaufen ist, wird das Aufgabenformular automatisch geschlossen, unabhängig davon, ob Sie alle Aufgaben bearbeitet haben oder nicht. Wenn Sie früher fertig sind, können Sie Ihre Arbeit überprüfen oder einfach warten, aber beginnen Sie nicht mit den nächsten Aufgaben. Der Übergang zur nächsten Aufgabe erfolgt automatisch nach Ablauf der Zeit.
+
                     """);
             instructionText.setVisible(true);
             nextStep.setVisible(true);
@@ -313,21 +313,21 @@ public class Controller {
             nextStep.setVisible(true);
             instructionText.setText(
                     """
-                            Тест 2.
-                            Суть заданий, которые будут Вам предложены, такова: нужно понять правило, которым связаны первые два слова, и использовать его, чтобы к третьему слову подобрать подходящее из тех пяти, которые приведены ниже.
-                            Пример 1
-                            Лес — деревья= луг — ?
-                            1) сено 2) куст 3) корм 4) трава 5) пастбище
-                            Ответ: 4) трава.
-                            Принцип связи первых двух слов (лес — деревья) можно сформулировать так: «в лесу растут деревья». Тогда по этому правилу к слову «луг» подойдет слово «трава», так как можно сказать, что на лугу растет трава.
-                            Пример 2
-                            Темный — светлый = мокрый — ?
-                            1) влажный 2) дождливый 3) пасмурный 4) солнечный 5) сухой
-                            Ответ:5) сухой.
-                            Первые два слова (темный — светлый) антонимы, следовательно, по этому правилу к слову «мокрый» подойдет слово «сухой».
-                            Заданий такого типа будет тоже двадцать. Отвечать на них нужно в окошке, следующем непосредственно после каждого задания. Основная задача будет состоять в том, чтобы понять, как связаны первые два слова (могут встречаться зависимости самых разных типов), и по этому правилу подобрать подходящее слово к третьему. В каждом задании слова пронумерованы: 1, 2, 3, 4, 5. Номер выбранного слова следует записать в пустом окошке под соответствующим заданием.
-                            Если не знаете, какой ответ выбрать, можно эту задачку пропустить. К ней можно будет еще вернуться, если останется время. Если Вам кажется, что Вы ошиблись, то можете исправить, ответ, вернувшись к заданию на тот, что считаете более правильным. Работать надо быстро, так как время выполнения заданий ограничено.
-                            Нажмите ДАЛЕЕ и начинайте работать, когда будете готовы. По истечении отведенного времени, форма выполнения заданий будет закрыта вне зависимости от того, успели Вы выполнить все задания или нет. Если Вы справитесь с заданиями быстрее, то в оставшееся время можно проверить свою работу или просто отдохнуть, но нельзя приступать к следующим заданиям. Переходить к следующему заданию осуществляется автоматически по истечению времени.
+                            Untertest 2.
+                            Bei den folgenden Aufgaben gilt es, die Beziehung zwischen den ersten beiden Wörtern zu erkennen und dann das passende Wort für das dritte Wort aus den fünf Antwortmöglichkeiten zu wählen.
+                            Beispiel 1
+                            Wald — Bäume = Wiese — ?
+                            1) Heu   2) Strauch   3) Futter   4) Gras   5) Weide
+                            Antwort: 4) Gras.
+                            Die Beziehung zwischen den ersten beiden Wörtern (Wald — Bäume) lässt sich so formulieren: „Im Wald wachsen Bäume." Nach dieser Regel passt zum Wort „Wiese" das Wort „Gras", da auf der Wiese Gras wächst.
+                            Beispiel 2
+                            Dunkel — hell = nass — ?
+                            1) feucht   2) regnerisch   3) bewölkt   4) sonnig   5) trocken
+                            Antwort: 5) trocken.
+                            Die ersten beiden Wörter (dunkel — hell) sind Antonyme; nach dieser Regel passt zum Wort „nass" das Wort „trocken".
+                            Es gibt wieder zwanzig solcher Aufgaben. Tragen Sie Ihre Antwort in das Kästchen nach der jeweiligen Aufgabe ein. Die Hauptaufgabe besteht darin, die Beziehung zwischen den ersten beiden Wörtern zu verstehen und nach diesem Prinzip das passende Wort für das dritte zu finden. Jedes Wort ist nummeriert: 1, 2, 3, 4, 5. Schreiben Sie die Nummer des gewählten Wortes in das leere Kästchen.
+                            Wenn Sie die Antwort nicht wissen, können Sie die Aufgabe überspringen. Sie können später zurückkehren, wenn Zeit übrig bleibt. Falls Sie sich geirrt haben, können Sie die Antwort korrigieren. Arbeiten Sie schnell, da die Zeit begrenzt ist.
+                            Klicken Sie auf WEITER und beginnen Sie zu arbeiten, wenn Sie bereit sind. Wenn die Zeit abgelaufen ist, wird das Aufgabenformular automatisch geschlossen. Wenn Sie früher fertig sind, können Sie Ihre Arbeit überprüfen oder einfach warten, aber beginnen Sie nicht mit den nächsten Aufgaben. Der Übergang zur nächsten Aufgabe erfolgt automatisch nach Ablauf der Zeit.
                             """
             );
             instructionText.setVisible(true);
@@ -341,20 +341,20 @@ public class Controller {
             nextStep.setVisible(true);
             instructionText.setText(
                     """
-                            Тест 3.
-                            Суть заданий, с которыми Вы встретитесь, будет состоять в том, что Вам нужно будет из шести слов выбрать два таких, которые можно объединить, так как они однородны, относятся к одной классификационной группе, могут быть подведены под одно, более общее понятие. Между словами не должно быть никаких других связей, например, функциональных , причинно-следственных и пр.
-                            Пример 1
-                            1) нож 2) яблоко З) газета 4) хлеб 5) сигара 6) браслет
-                            Ответ: 24 (яблоко и хлеб)
-                            Слова «яблоко» и «хлеб» однородны, относятся к одной группе «продукты питания», между собой никак не связаны. Нельзя, например, выбрать «нож» и «хлеб», так как эти слова связаны функционально (ножом режут хлеб), но не являются однородными, ни к какой общей группе их не отнести.
-                            Пример 2
-                            1) трава 2) рожь 3) пирог 4)мука 5)пшеница 6) дерево
-                            Ответ:25 (рожь и пшеница)
-                            Слова «рожь» и «пшеница» однородны, относятся к одной классификационной группе «зерновые растения», между собой никак не связаны. Нельзя, например, выбрать слова «мука и пирог», так как эти слова связаны функционально (из муки пекут пирог), но ни в какую общую классификационную группу не входят. Также не являются ответом слова «трава» и «дерево», хотя они и не связаны между собой, и входят в одну классификационную группу — «растения». Дело в том, что и рожь, и пшеница тоже растения, и получается, что в выделенную группу попадает четыре слова, а не два, как требуется. Всегда надо искать такую классификационную группу, чтобы в нее попадало только два слова.
-                            Заданий такого типа будет тоже двадцать. Отвечать на них нужно в окошке, следующем непосредственно после каждого задания. В каждом задании слова пронумерованы: 1, 2, 3, 4, 5. Помните, обе цифры следует вписывать в одно окошко под соответствующим заданием не разделяя запятыми, точками или тире, как указано в примере.
-                            Если не знаете, какой ответ выбрать, можно эту задачку пропустить. К ней можно будет вернуться, если останется время. Если Вам кажется, что Вы ошиблись, то можете исправить,  ответ на тот, который считаете более правильным. Надо стараться работать быстро, так как время выполнения заданий ограничено.
-                            Нажмите ДАЛЕЕ и начинайте работать, когда будете готовы. По истечении отведенного времени, форма выполнения заданий будет закрыта вне зависимости от того, успели Вы выполнить все задания или нет. Если Вы справитесь с заданиями быстрее, то в оставшееся время можно проверить свою работу или просто отдохнуть, но нельзя приступать к следующим заданиям. Переходить к следующему заданию осуществляется автоматически по истечению времени.
-                                                    
+                            Untertest 3.
+                            Bei den folgenden Aufgaben finden Sie jeweils sechs Wörter. Zwei dieser Wörter lassen sich zusammenfassen, weil sie gleichartig sind, zur selben Kategorie gehören und unter einen gemeinsamen Oberbegriff gebracht werden können. Zwischen den Wörtern darf es keine anderen Beziehungen geben, z.B. funktionale oder kausale.
+                            Beispiel 1
+                            1) Messer   2) Apfel   3) Zeitung   4) Brot   5) Zigarre   6) Armband
+                            Antwort: 24 (Apfel und Brot)
+                            „Apfel" und „Brot" sind gleichartig, gehören zur Gruppe „Lebensmittel" und haben keine direkte Verbindung zueinander. Man darf z.B. nicht „Messer" und „Brot" wählen, da diese funktional verbunden sind (mit dem Messer schneidet man Brot), aber keine gleichartige Gruppe bilden.
+                            Beispiel 2
+                            1) Gras   2) Roggen   3) Kuchen   4) Mehl   5) Weizen   6) Baum
+                            Antwort: 25 (Roggen und Weizen)
+                            „Roggen" und „Weizen" sind gleichartig, gehören zur Kategorie „Getreide" und haben keine direkte Verbindung zueinander. Man darf z.B. nicht „Mehl" und „Kuchen" wählen, da diese funktional verbunden sind. Auch „Gras" und „Baum" sind keine richtige Antwort, obwohl sie beide zur Gruppe „Pflanzen" gehören — denn dann würden auch Roggen und Weizen dazu gehören, und es wären vier Wörter statt zwei. Suchen Sie immer die Kategorie, in die genau zwei Wörter passen.
+                            Es gibt wieder zwanzig solche Aufgaben. Tragen Sie Ihre Antwort in das Kästchen nach der jeweiligen Aufgabe ein. Schreiben Sie beide Ziffern in ein Kästchen, ohne sie durch Kommas, Punkte oder Bindestriche zu trennen, wie im Beispiel angegeben.
+                            Wenn Sie die Antwort nicht wissen, können Sie die Aufgabe überspringen. Sie können später zurückkehren, wenn Zeit übrig bleibt. Falls Sie sich geirrt haben, können Sie die Antwort korrigieren. Arbeiten Sie schnell, da die Zeit begrenzt ist.
+                            Klicken Sie auf WEITER und beginnen Sie zu arbeiten, wenn Sie bereit sind. Wenn die Zeit abgelaufen ist, wird das Aufgabenformular automatisch geschlossen. Wenn Sie früher fertig sind, können Sie Ihre Arbeit überprüfen oder einfach warten, aber beginnen Sie nicht mit den nächsten Aufgaben. Der Übergang zur nächsten Aufgabe erfolgt automatisch nach Ablauf der Zeit.
+
                             """
             );
             instructionText.setVisible(true);
@@ -368,9 +368,8 @@ public class Controller {
             nextStep.setVisible(true);
             instructionText.setText(
                     """
-                            Тест 4.
-                            Суть задания, которое будет Вам предложено, состоит в том, чтобы мысленно сложить
-                            фигуру, разрезанную на кусочки, которые в свою очередь размещены на плоскости в случайном порядке.
+                            Untertest 4.
+                            Bei der folgenden Aufgabe sollen Sie eine zerschnittene Figur, deren Teile in zufälliger Anordnung auf einer Fläche liegen, gedanklich zusammensetzen.
                             """
             );
             instructionText.setVisible(true);
@@ -381,10 +380,10 @@ public class Controller {
             image1.setLayoutY(200f);
             instructionText2.setText(
                     """
-                            В верхнем ряду нарисованы фигуры-образцы. Они пронумерованы 1, 2, 3, 4, 5. Ниже нарисованы те же фигуры, но только разрезанные на кусочки. Вам надо из кусочков сложить какую-нибудь фигуру-образец. Из первых нижних кусочков получается фигура 1. Из вторых нижних кусочков получается фигура 5, из третьих — фигура 2, из четвертых — 4.
-                            Пример очень простой, само задание будет несколько труднее, но принцип работы сохраняется тот же. Задание будет состоять из двух составных частей по 10 фигур (нужно будет прокрутить страницу до конца, чтобы увидеть все задания). В верхнем ряду также будут нарисованы фигуры-образцы. Они пронумерованы 1, 2, 3, 4, 5. Под ними два ряда кусочков, из которых надо пытаться получить какую-нибудь фигуру-образец. Далее будут следовать окошки для ответов для первой части заданий. Ниже будет изображен еще ряд фигур-образцов (тоже под номерами 1, 2, 3, 4,5), а под ними еще два ряда с вариантами кусочков и окошки для ответом. Ваша задача будет состоять в том, чтобы из каждого набора кусочков мысленно сложить какой-либо из образцов. При «составлении» образца обязательно надо использовать все кусочки, нельзя ограничиться только отдельными фрагментами.
-                            Ответом будет являться номер фигуры-образца, которая, по Вашему мнению, получается из кусочков Номер этой фигуры-образца и следует записывать в окошки, соответствующие номерам заданий 121-140. Номера фигур-образцов, естественно, будут повторяться, потому что их всего пять, а «кусочков» — десять вариантов. Какой-то образец может получиться и два, и три раза, может быть и подряд. Пусть вас это Вас не смущает. Если сразу не видно, какая получается из кусочков фигура, то лучше пропустите и переходите к следующей. К ним можно будет еще раз вернуться, если останется время.
-                            Помните, что работать надо быстро, так как время выполнения ограничено. Если Вам кажется, что Вы ошиблись, то можете исправить, и вписать тот ответ, который считаете более правильным. Нажмите ДАЛЕЕ и начинайте работать, когда будете готовы. По истечении отведенного времени, форма выполнения заданий будет закрыта вне зависимости от того, успели Вы выполнить все задания или нет. Если Вы справитесь с заданиями быстрее, то в оставшееся время можно проверить свою работу или просто отдохнуть, но нельзя приступать к следующим заданиям. Переход к следующему заданию осуществляется автоматически по истечению времени.
+                            In der oberen Reihe sind Musterfiguren abgebildet, nummeriert mit 1, 2, 3, 4, 5. Darunter sind dieselben Figuren, aber in Stücke zerschnitten, abgebildet. Sie sollen aus den Stücken irgendeine Musterfigur zusammensetzen. Aus den ersten unteren Stücken ergibt sich Figur 1. Aus den zweiten unteren Stücken ergibt sich Figur 5, aus den dritten — Figur 2, aus den vierten — 4.
+                            Das Beispiel ist sehr einfach, die eigentliche Aufgabe wird etwas schwieriger sein, aber das Arbeitsprinzip bleibt dasselbe. Die Aufgabe besteht aus zwei Teilen mit je 10 Figuren (scrollen Sie bis zum Ende, um alle Aufgaben zu sehen). In der oberen Reihe sind ebenfalls Musterfiguren abgebildet, nummeriert 1, 2, 3, 4, 5. Darunter befinden sich zwei Reihen von Stücken. Dann folgen die Antwortfelder für den ersten Teil. Weiter unten ist eine weitere Reihe von Musterfiguren abgebildet (ebenfalls nummeriert 1, 2, 3, 4, 5), darunter weitere zwei Reihen mit Stückvarianten und Antwortfeldern. Ihre Aufgabe besteht darin, aus jedem Stücksatz gedanklich eine der Musterfiguren zusammenzusetzen. Beim Zusammensetzen müssen alle Stücke verwendet werden, einzelne Teile dürfen nicht weggelassen werden.
+                            Die Antwort ist die Nummer der Musterfigur, die nach Ihrer Meinung aus den Stücken entsteht. Diese Nummer ist in die Felder für die Aufgaben 121–140 einzutragen. Die Nummern der Musterfiguren wiederholen sich, da es nur fünf Muster aber zehn Stückvarianten gibt. Ein Muster kann zwei- oder dreimal vorkommen, vielleicht auch hintereinander. Lassen Sie sich davon nicht verwirren. Wenn nicht sofort erkennbar ist, welche Figur aus den Stücken entsteht, überspringen Sie diese und gehen Sie zur nächsten. Sie können später zurückkehren, wenn Zeit übrig bleibt.
+                            Denken Sie daran, schnell zu arbeiten, da die Zeit begrenzt ist. Falls Sie sich geirrt haben, können Sie die Antwort korrigieren. Klicken Sie auf WEITER und beginnen Sie zu arbeiten, wenn Sie bereit sind. Wenn die Zeit abgelaufen ist, wird das Aufgabenformular automatisch geschlossen. Wenn Sie früher fertig sind, können Sie Ihre Arbeit überprüfen oder einfach warten, aber beginnen Sie nicht mit den nächsten Aufgaben. Der Übergang zur nächsten Aufgabe erfolgt automatisch nach Ablauf der Zeit.
                              """
             );
             instructionText2.setVisible(true);
@@ -398,8 +397,8 @@ public class Controller {
             nextStep.setVisible(true);
             instructionText.setText(
                     """
-                            Тест 5.
-                            Задание, которое будет Вам предложено, немного похоже на предыдущее, только теперь в качестве образцов будут выступать кубики.
+                            Untertest 5.
+                            Die folgende Aufgabe ähnelt der vorherigen, nur dass diesmal Würfel als Muster verwendet werden.
                             """
             );
             instructionText.setPrefHeight(100f);
@@ -411,11 +410,11 @@ public class Controller {
             image1.setLayoutY(150f);
             instructionText2.setText(
                     """
-                            Верхний ряд кубиков  — это образцы, они пронумерованы 1, 2, 3, 4, 5. Кубики-образцы все разные, потому что по-разному разрисованы их грани (это не дырки, а нарисованные кружочки, квадратики и линии). Ниже нарисованы те же самые кубики, только в измененном положении. Они могут быть повернуты в горизонтальной или в вертикальной плоскости, или и одновременно в обеих плоскостях. Когда кубик поворачивается (один или несколько раз), внешний вид его меняется, он начинает выглядеть по-другому. Может одна грань исчезнуть и появиться новая, но две грани (из изображенных на образце) всегда остаются видны, хотя и иначе выглядят. Могут оставаться перед глазами и все три грани образца, только они будут даны в другом положении. Вам надо, сравнивая, как соотносятся рисунки на гранях, определить, с каким из образцов идентичен каждый кубик, который нарисован ниже во втором ряду.
-                             Первый нижний кубик идентичен образцу 1. Второй нижний кубик представляет собой образец 5. Проследим подробнее за преобразованиями третьего нижнего кубика. Если его один раз повернуть в вертикальной плоскости против часовой стрелки, кружок из верхнего левого угла «опустится» в нижний левый, верхняя грань с кружком по середине спрячется и не будет видна, правая грань станет верхней и ее нижний дальний «уголок» поднимется наверх, а на ее месте появиться новая грань, которая есть на образце, но не была видна на кубике. В итоге мы получим образец 2. Четвертый нижний кубик представляет собой образец 3, пятый нижний кубик — образец 4.
-                             Само задание будет точно таким же. В верхнем ряду будут расположены кубики-образцы (которые будут иметь номера 1, 2, 3, 4, 5), а ниже — ряды кубиков, которые нужно сравнивать с образцами и выбирать, на какой из образцов каждый из них похож. Ответ (то есть номер выбранного кубика-образца) следует записывать в окошках, предназначенных для каждого задания 141-160, под соответствующим номером кубика-задания. На каждый кубик-образец могут оказаться похожими несколько кубиков-заданий, так как образцов всего пять, а кубиков к ним двадцать. Следовательно, номера ответов будут повторяться, каждый может встретиться несколько раз, возможно и подряд. Если какой-то кубик не определить, то можете его пропустить.
-                             Помните, что время выполнения задания ограничено. Желательно, чтобы за это время Вы успели просмотреть все кубики-задания. В конце могут оказаться более легкие задания, а Вы до них просто не успеете дойти. Если Вам кажется, что Вы ошиблись, то можете исправить, и указать ответ, который считаете более правильным.
-                             Нажмите ДАЛЕЕ и начинайте работать, когда будете готовы. По истечении отведенного времени, форма выполнения заданий будет закрыта вне зависимости от того, успели Вы выполнить все задания или нет. Если Вы справитесь с заданиями быстрее, то в оставшееся время можно проверить свою работу или просто отдохнуть, но нельзя приступать к следующим заданиям. Переход к следующему заданию осуществляется автоматически по истечению времени.
+                            Die obere Reihe zeigt Musterwürfel, nummeriert 1, 2, 3, 4, 5. Alle Musterwürfel sind verschieden, da ihre Flächen unterschiedlich bemalt sind (keine Löcher, sondern aufgemalte Kreise, Quadrate und Linien). Darunter sind dieselben Würfel in veränderter Lage abgebildet. Sie können in der horizontalen oder vertikalen Ebene gedreht sein, oder in beiden gleichzeitig. Wenn ein Würfel gedreht wird, verändert sich sein Aussehen. Eine Fläche kann verschwinden und eine neue erscheinen, aber zwei Flächen sind immer sichtbar, wenn auch in veränderter Position. Sie sollen, indem Sie die Muster auf den Flächen vergleichen, bestimmen, welchem Muster jeder der darunter abgebildeten Würfel entspricht.
+                             Der erste untere Würfel entspricht Muster 1. Der zweite untere Würfel stellt Muster 5 dar. Verfolgen wir die Veränderungen des dritten unteren Würfels: Wenn er einmal in der vertikalen Ebene gegen den Uhrzeigersinn gedreht wird, bewegt sich der Kreis aus der oberen linken Ecke in die untere linke, die obere Fläche verschwindet, die rechte Fläche wird zur oberen, und an ihrer Stelle erscheint eine neue Fläche. Das Ergebnis ist Muster 2. Der vierte untere Würfel stellt Muster 3 dar, der fünfte — Muster 4.
+                             Die eigentliche Aufgabe ist genau gleich. In der oberen Reihe befinden sich Musterwürfel (nummeriert 1, 2, 3, 4, 5), darunter Reihen von Würfeln, die mit den Mustern verglichen und identifiziert werden sollen. Die Antwort (d.h. die Nummer des gewählten Musterwürfels) ist in den Feldern für die Aufgaben 141–160 einzutragen. Mehrere Aufgabenwürfel können einem Muster ähneln, da es nur fünf Muster, aber zwanzig Würfel gibt. Die Antwortnummern wiederholen sich daher, jede kann mehrfach vorkommen, möglicherweise auch hintereinander. Wenn ein Würfel nicht bestimmbar ist, können Sie ihn überspringen.
+                             Denken Sie daran, dass die Zeit begrenzt ist. Versuchen Sie, in dieser Zeit alle Aufgabenwürfel zu betrachten. Am Ende könnten leichtere Aufgaben stehen. Falls Sie sich geirrt haben, können Sie die Antwort korrigieren.
+                             Klicken Sie auf WEITER und beginnen Sie zu arbeiten, wenn Sie bereit sind. Wenn die Zeit abgelaufen ist, wird das Aufgabenformular automatisch geschlossen. Wenn Sie früher fertig sind, können Sie Ihre Arbeit überprüfen oder einfach warten, aber beginnen Sie nicht mit den nächsten Aufgaben. Der Übergang zur nächsten Aufgabe erfolgt automatisch nach Ablauf der Zeit.
                             """
             );
             instructionText2.setVisible(true);
@@ -455,7 +454,7 @@ public class Controller {
 
     private void tasks120() {
         testName.setVisible(true);
-        testName.setText("ЗАДАНИЯ 1-20");
+        testName.setText("AUFGABEN 1-20");
         instructionText.setVisible(false);
         nextStep.setVisible(false);
         Pane parent = (Pane) testName.getParent();
@@ -496,7 +495,7 @@ public class Controller {
 
     private void tasks2140() {
         testName.setVisible(true);
-        testName.setText("ЗАДАНИЯ 21-40");
+        testName.setText("AUFGABEN 21-40");
         instructionText.setVisible(false);
         nextStep.setVisible(false);
         Pane parent = (Pane) testName.getParent();
@@ -538,7 +537,7 @@ public class Controller {
 
     private void tasks4160() {
         testName.setVisible(true);
-        testName.setText("ЗАДАНИЯ 41-60");
+        testName.setText("AUFGABEN 41-60");
         instructionText.setVisible(false);
         nextStep.setVisible(false);
         Pane parent = (Pane) testName.getParent();
@@ -580,7 +579,7 @@ public class Controller {
 
     private void tasks121140() {
         testName.setVisible(true);
-        testName.setText("ЗАДАНИЯ 121-140");
+        testName.setText("AUFGABEN 121-140");
         instructionText.setVisible(false);
         instructionText2.setVisible(false);
         Image base = new Image(Objects.requireNonNull(Controller.class.getResource("/subtest7/121-130.png")).toString());
@@ -668,7 +667,7 @@ public class Controller {
 
     private void tasks141160() {
         testName.setVisible(true);
-        testName.setText("ЗАДАНИЯ 141-160");
+        testName.setText("AUFGABEN 141-160");
         instructionText.setVisible(false);
         instructionText2.setVisible(false);
 

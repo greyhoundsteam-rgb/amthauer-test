@@ -14,15 +14,15 @@
     <ScrollPane maxWidth="1200" minWidth="1200" prefHeight="900.0" prefWidth="1200.0">
         <Pane prefWidth="1100" maxWidth="1100" minWidth="1100">
             <TextArea fx:id="instructionText" editable="false" layoutX="14.0" layoutY="49.0" prefHeight="600.0" prefWidth="1000.0" wrapText="true" />
-            <TextField fx:id="userName" layoutX="14.0" layoutY="13.0" onMouseClicked="#clearTextField" prefWidth="200.0" text="Введите свое имя" />
-            <Button layoutX="704.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#closeWindow" text="Выход" />
+            <TextField fx:id="userName" layoutX="14.0" layoutY="13.0" onMouseClicked="#clearTextField" prefWidth="200.0" text="Ihren Namen eingeben" />
+            <Button layoutX="704.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#closeWindow" text="Beenden" />
 
-            <Button fx:id="startTestButton" layoutX="233.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#startTest" text="Старт" />
+            <Button fx:id="startTestButton" layoutX="233.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#startTest" text="Start" />
             <Label fx:id="testName" layoutX="400.0" layoutY="15.0" prefHeight="20.0" prefWidth="200.0" visible="false" />
             <ImageView fx:id="image1" fitHeight="300.0" fitWidth="1000.0" layoutX="14.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false" />
             <ImageView fx:id="image2" fitHeight="300.0" fitWidth="1000.0" layoutX="14.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false" />
             <TextArea fx:id="instructionText2" editable="false" layoutX="14.0" layoutY="550.0" prefHeight="400.0" prefWidth="1000.0" visible="false" wrapText="true" />
-            <Button fx:id="nextStep" layoutX="623.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#nextStep" text="Далее" visible="false" />
+            <Button fx:id="nextStep" layoutX="623.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#nextStep" text="Weiter" visible="false" />
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
